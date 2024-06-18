@@ -3,10 +3,10 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  transition: 0.5s;
+  transition: 0.5s; /*Hover do botão*/
   cursor: pointer;
 
-  &.btn-primary,
+  &.btn-primary, /*E comercial é conforme o nome da classe*/
   &.btn-secondary {
     padding: 10px;
     font-size: 16px;
