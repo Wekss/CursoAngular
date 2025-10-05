@@ -1,10 +1,13 @@
 import { Component, signal } from '@angular/core';
 // @ts-ignore
 import { IKnowledge} from '../../interface/IKnowledge.interface';
+import {MatTooltip} from "@angular/material/tooltip";
 @Component({
   selector: 'app-knowledge',
   standalone: true,
-  imports: [],
+  imports: [
+    MatTooltip
+  ],
   templateUrl: './knowledge.component.html',
   styleUrl: './knowledge.component.scss'
 })
@@ -13,10 +16,11 @@ export class KnowledgeComponent {
     {
       src: 'assets/icons/knowledge/angular.svg',
       alt: 'Icone de Angular',
+
     },
     {
       src: 'assets/icons/knowledge/html5.svg',
-      alt: 'Icone de Angular',
+      alt: 'Icone de Css',
     }
   ])
 }

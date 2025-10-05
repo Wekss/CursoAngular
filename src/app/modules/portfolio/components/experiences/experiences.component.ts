@@ -30,6 +30,13 @@ export class ExperiencesComponent {
       },
       text: 'Des de agosto de 2024, atuo como suporte de T.I na financeira UCRED',
     },
+    {
+      summary:{
+        strong: 'Analista de Sistemas De T.I Junior',
+        p: 'UCRED | Setembro 2024 -Present',
+      },
+      text: 'Des de setembro de 2024, fui promovido para Analista de Sistemas de T.I JR na financeira UCRED',
+    },
 
   ]);
 }

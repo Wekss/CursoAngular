@@ -5,13 +5,16 @@
     <li>
       <img
         [src]="item.src"
+        [matTooltip]="item.alt"
+
+
         [alt]="item.alt"
         loading="lazy"
         width="22px"
         height="24px"
 
       />
-    </li>
+    </li> <!-- Tooltip para colocar titulos-->
 }
 
   </ul>
